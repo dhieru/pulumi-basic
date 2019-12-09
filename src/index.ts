@@ -23,3 +23,4 @@ const role = new aws.iam.Role("precompiled-lambda-role",{
 let a = 10;
 let b = 20;
 let str = "Hello world string";
+console.log(str);
